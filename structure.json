@@ -1,0 +1,176 @@
+{
+    "profile": {
+        "id": "cjyfx46867676r5t",
+        "title": "",
+        "image": "",
+        "location": {
+            "longitude": "11",
+            "latitude": "3030"
+        }
+    },
+    "allUsers": [
+        {
+            "id": "",
+            "name": "",
+            "image": "",
+            "userType": "admin",
+            "iaActive": true
+        },
+        {
+            "id": "",
+            "name": "",
+            "image": "",
+            "userType": "sudo-admin",
+            "iaActive": true
+        },
+        {
+            "id": "",
+            "name": "",
+            "image": "",
+            "userType": "member",
+            "iaActive": false
+        }
+    ],
+    "rooms": [
+        {
+            "id": "",
+            "title": "Bedroom",
+            "location": {
+                "longitude": "11",
+                "latitude": "3030"
+            },
+            "devices": [
+                {
+                    "id": "",
+                    "title": "",
+                    "type": "button",
+                    "isOn": true,
+                    "isDisabled": false,
+                    "timer": {
+                        "isDisabled": false,
+                        "timeMs": 100000
+                    }
+                },
+                {
+                    "id": "",
+                    "title": "",
+                    "type": "slider",
+                    "isOn": true,
+                    "value": 8,
+                    "isDisabled": false,
+                    "timer": {
+                        "isDisabled": true,
+                        "timeMs": 0
+                    }
+                },
+                {
+                    "id": "",
+                    "title": "",
+                    "type": "canvas",
+                    "isOn": true,
+                    "value": {
+                        "r": 0,
+                        "g": 0,
+                        "b": 0
+                    },
+                    "isRandom": false,
+                    "isDisabled": false,
+                    "timer": {
+                        "isDisabled": false,
+                        "timeMs": 100000
+                    }
+                }
+            ],
+            "allowedUsers": [
+                {
+                    "id": "",
+                    "name": "",
+                    "image": "",
+                    "userType": "admin",
+                    "iaActive": true
+                },
+                {
+                    "id": "",
+                    "name": "",
+                    "image": "",
+                    "userType": "admin",
+                    "iaActive": true
+                }
+            ]
+        },
+        {
+            "id": "",
+            "title": "Kitchen",
+            "devices": [
+                {
+                    "id": "",
+                    "title": "",
+                    "type": "button",
+                    "isOn": true,
+                    "isDisabled": false
+                },
+                {
+                    "id": "",
+                    "title": "",
+                    "type": "slider",
+                    "isOn": true,
+                    "isDisabled": false
+                }
+            ],
+            "allowedUsers": [
+                {
+                    "id": "",
+                    "name": "",
+                    "image": "",
+                    "userType": "admin",
+                    "iaActive": true
+                },
+                {
+                    "id": "",
+                    "name": "",
+                    "image": "",
+                    "userType": "admin",
+                    "iaActive": true
+                }
+            ]
+        },
+        {
+            "id": "",
+            "title": "Veranda",
+            "devices": [
+                {
+                    "id": "",
+                    "title": "",
+                    "type": "button",
+                    "isOn": true,
+                    "isDisabled": false
+                },
+                {
+                    "id": "",
+                    "title": "",
+                    "type": "slider",
+                    "isOn": true,
+                    "isDisabled": false
+                }
+            ],
+            "allowedUsers": [
+                {
+                    "id": "",
+                    "name": "",
+                    "userType": "admin",
+                    "iaActive": true
+                },
+                {
+                    "id": "",
+                    "name": "",
+                    "userType": "admin",
+                    "iaActive": true
+                }
+            ]
+        }
+    ],
+    "theme": {
+        "primaryColor": "primary",
+        "secondaryColor": "secondary"
+    }
+}
